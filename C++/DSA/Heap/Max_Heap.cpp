@@ -36,6 +36,8 @@ int deletion(){
     heapsize--;
 
     int current = 0;
+    //Do heapify
+
     while(current*2+1 < heapsize){
         int left = current*2+1;
         int right = current*2+2;
